@@ -1,5 +1,114 @@
+/* General Styles */
 body {
-    margin: 0;
-    background: pink;
+    background-color: lightgray;
     text-align: center;
 }
+
+h1 {
+    color: black;
+}
+
+p.Final {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(15, 62, 45);
+}
+
+/* Button Styles */
+.nextbutton1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: red;
+    float: right;
+}
+.nextbutton1:hover {
+    background-color: green;
+    cursor: pointer;
+}
+.nextbutton2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: red;
+    float: right;
+}
+.nextbutton2:hover {
+    background-color: green;
+    cursor: pointer;
+}
+.prevbutton1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: red;
+    float: left;
+}
+.prevbutton1:hover {
+    background-color: green;
+    cursor: pointer;
+}
+.prevbutton2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: red;
+    float: left;
+}
+.prevbutton2:hover {
+    background-color: green;
+    cursor: pointer;
+}
+
+/* Page 2 Styles */
+.bar{
+    fill:rgb(96, 109, 222);
+    border-radius: 1px;
+    border-color: black;
+}
+.bar:hover {
+    fill: rgba(255, 0, 0, 0.537);
+}
+#BCToolTip {
+    position: absolute;
+    width: 100px;
+    height: auto;
+    padding: 10px;
+    background-color: whitesmoke;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    pointer-events: none;
+}
+#BCToolTip.hidden{
+    display: none;
+}
+#BCToolTip p{
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+/* Page 1 Styles */
+.dot {
+    fill: steelblue;
+    stroke: steelblue;
+    stroke-width: 1.5;
+}
+.dot:hover {
+    fill: rgba(255, 0, 0, 0.537);
+}
+.Tooltip-Scatterplot {
+    position: absolute;
+    padding: 10px;
+    background-color: steelblue;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    display: none;
+    opacity: .75;
+    font: 12px sans-serif;    
+}
+
+/* Page 3 Styles */

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<meta charset="Utf-8">
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://d3js.org/d3.v7.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-annotation/2.5.1/d3-annotation.min.js" integrity="sha512-iBAeBWWWFb8HqSBcrqcz98iIpuVH1la39dEYHtyQ/pGpeCQTQVvLJOWAuhv2Q7JSHp9k7hWA7sGxU3hHJe+tFg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    <h1>Which Offensive Line Units got Paid?</h1>
+    <h4>TIP: Hover over a bar on the chart to see the Total Salary Paid to OL in 2023!</h4>
+    <div id="Salary-Bar-Chart"></div>
+    <script src="chart_two.js"></script>
+    <div id="BCToolTip" class="hidden">
+        <p><strong>OL Salary in 2023 (M)</strong></p>
+        <p>$<span id="value"></span></p>
+    </div>
+    <p class="FirstPara">While Salary is not a direct stat that determines a players skill, teams tend to pay great players more. In this chart we can see which teams value the offensive line postion the most!</p>
+    <button class="nextbutton2" id="nextbutton2" onclick="window.location.href = 'page-3.html'">Next</button>
+    <button class="prevbutton1" id="prevbutton1" onclick="window.location.href = 'index.html'">Previous</button>
+</body>
+
+</html>
